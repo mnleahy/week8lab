@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rock, Paper, Scissors!</title>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <h1>Rock, Paper, Scissors!</h1>
+        <form id="rps">
+            <p>Please select an option:</p>
+        <input type="radio" name="game" id="formRps1" value="1">
+        <label for="Rock">Rock</label><br>
+        <input type="radio" name="game" id="formRps2" value="2">
+        <label for="Paper">Paper</label><br>
+        <input type="radio" name="game" id="formRps3" value="3">
+        <label for="scissors">Scissors</label>
+        <br>
+        <br>
+        <input type="submit" onclick="check()">
+        </form>
+        <br>
+        <br>
+        <div id="rps"></div>
+</body>
+</html>
